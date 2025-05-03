@@ -2,32 +2,42 @@
   width: 90%;
   margin: 0 auto;
   max-width: 960px;
+
   @media only screen and (min-width: $cut) {
     width: 80%;
   }
 }
 
-.tech {
-  margin: 10px;
+.user-details {
+  text-align: center;
+  margin: 10px auto;
 }
 
 .user {
   text-align: center;
-  font-size: 60px;
+  font-size: 64px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+
   p {
     font-size: 16px;
   }
+
   @media only screen and (min-width: $cut) {
     flex-wrap: nowrap;
     font-size: 75px;
   }
 }
 
-.user-details {
-  text-align: center;
-  margin: 5px auto;
+.tech {
+  margin: 15px;
+
+  img {
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+    object-fit: contain;
+  }
 }
