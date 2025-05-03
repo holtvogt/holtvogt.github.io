@@ -12,18 +12,22 @@
 
 .user-projects {
   margin: 20px auto;
+
   img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
   }
+
   h5 {
     margin: 0;
   }
+
   li {
     color: $main;
     font-size: 1.1rem;
   }
+
   p {
     margin-right: 5px;
   }
@@ -43,11 +47,13 @@
     width: 48%;
   }
 }
+
 .images-right {
   @media only screen and (min-width: $cut) {
     float: right;
     width: 48%;
   }
+
   img {
     @media only screen and (min-width: $cut) {
       float: right;
@@ -60,6 +66,7 @@
     float: left;
     width: 48%;
   }
+
   img {
     @media only screen and (min-width: $cut) {
       float: left;
