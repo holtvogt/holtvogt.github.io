@@ -5,7 +5,7 @@ baseurl: ""
 url: "localhost:3000"
 
 # User settings
-user_title: Software Engineer
+user_title: Software Engineer @ IBM
 user_description: |
   I'm passionate about backend development, distributed systems, and building scalable, intelligent software.
   
