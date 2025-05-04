@@ -19,45 +19,33 @@ A simple and minimalist Jekyll template designed for developers to showcase thei
 
 Follow these steps to set up the project locally:
 
-1. **Install Prerequisites**
-   Ensure you have the following installed:
-   - [Node.js](https://nodejs.org/) (LTS version `14` recommended)
-   - [Jekyll](https://jekyllrb.com):
+### Install Prerequisites
 
-     ```bash
-     sudo gem install bundler jekyll
-     ```
+Ensure you have the following installed:
 
-   - [Gulp](https://gulpjs.com/):
-  
-     ```bash
-     npm install -g gulp
-     ```
+- [Node.js](https://nodejs.org/) (LTS version `14` recommended)
+- [Jekyll](https://jekyllrb.com): `sudo gem install bundler jekyll`
+- [Gulp](https://gulpjs.com/): `npm install -g gulp`
+- [Yarn](https://yarnpkg.com/): `npm install -g yarn`
 
-   - [Yarn](https://yarnpkg.com/):
+### Clone the Repository
 
-     ```bash
-     npm install -g yarn
-     ```
+```bash
+git clone https://github.com/holtvogt/holtvogt.github.io.git
+cd holtvogt.github.io
+```
 
-2. **Clone the Repository**
+### Install Dependencies
 
-   ```bash
-   git clone https://github.com/holtvogt/holtvogt.github.io.git
-   cd holtvogt.github.io
-   ```
+```bash
+yarn install
+```
 
-3. **Install Dependencies**
+### Run the Development Server
 
-    ```bash
-    yarn install
-    ```
-
-4. **Run the Development Server**
-
-    ```bash
-    gulp
-    ```
+```bash
+gulp
+```
 
 ## Site and User Settings
 
