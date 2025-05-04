@@ -1,12 +1,17 @@
 # Site settings
 title: Björn Holtvogt
-description: Björn Holtvogt
+description: Passionate about backend development, distributed systems, and building scalable, intelligent software.
 baseurl: ""
 url: "localhost:3000"
 
 # User settings
 user_title: Software Engineer
-user_description: Passionate about backend development, distributed systems, and building scalable, intelligent software.
+user_description: |
+  I'm passionate about backend development, distributed systems, and building scalable, intelligent software.
+  
+  With experience across companies like IBM, Cisco, and Porsche Engineering, I've worked on a variety of software challenges - from backend development and workflow automation to real-time data processing and AI-driven applications. My technical background includes designing high-performance backend systems, optimizing large-scale data workflows, and integrating machine learning models for intelligent automation.
+  
+  I'm particularly interested in the intersection of software engineering and AI, exploring how automation, distributed systems, and scalable architectures can enhance performance and efficiency. Whether working on backend services, cloud-native solutions, or data-driven applications, I enjoy solving complex problems and building software that scales.
 username: Björn Holtvogt
 email: bjoern.holtvogt@gmail.com
 linkedin_username: bjoernholtvogt
