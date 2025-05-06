@@ -24,18 +24,20 @@
     font-size: 1.5rem;
   }
 
+  p {
+    color: $main;
+    font-size: 1.1rem; /* Apply the style previously used for li */
+    margin-right: 5px;
+  }
+
   ul {
     margin-top: 10px;
     padding-left: 20px;
 
     li {
-      color: $main;
-      font-size: 1.1rem;
+      font-size: 1rem; /* Apply the style previously used for p */
+      margin-bottom: 10px;
     }
-  }
-
-  p {
-    margin-right: 5px;
   }
 
   .experience-entry {
@@ -70,7 +72,7 @@
 
         @media only screen and (max-width: $cut) {
           margin-right: 0; /* Remove margin on mobile */
-          margin-bottom: -20px; /* Add spacing below the logo */
+          margin-bottom: -10px; /* Add spacing below the logo */
         }
       }
 
