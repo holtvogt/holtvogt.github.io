@@ -63,9 +63,9 @@
     border-radius: 5px;
   }
 
-  @media only screen and (max-width: 768px) {
-    width: 100%; /* Full width for smaller screens */
-    justify-content: center; /* Ensure the image is horizontally centered */
+  @media only screen and (max-width: $cut) {
+    width: 100%;
+    justify-content: center;
   }
 }
 
