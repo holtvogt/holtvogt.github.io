@@ -49,29 +49,23 @@
   }
 }
 
-.images-right {
-  @media only screen and (min-width: $cut) {
-    float: right;
-    width: 48%;
-  }
-
-  img {
-    @media only screen and (min-width: $cut) {
-      float: right;
-    }
-  }
-}
-
+.images-right,
 .images-left {
-  @media only screen and (min-width: $cut) {
-    float: left;
-    width: 48%;
-  }
+  width: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   img {
-    @media only screen and (min-width: $cut) {
-      float: left;
-    }
+    max-width: 256px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    width: 100%; /* Full width for smaller screens */
+    justify-content: center; /* Ensure the image is horizontally centered */
   }
 }
 
