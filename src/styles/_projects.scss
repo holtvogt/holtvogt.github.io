@@ -24,6 +24,23 @@
     margin: 0;
   }
 
+  .project-skills {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+
+    li {
+      background-color: #e0e0e0;
+      color: #333;
+      font-size: 0.85rem;
+      padding: 4px 10px;
+      margin: 3px;
+      border-radius: 5px;
+    }
+  }
+
   li {
     color: $main;
     font-size: 1.1rem;
